@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>고정적 위치 지정하기</title>
+  <style>
+    img {border: 5px solid #8dc;}
+    .fixed-img{
+      position: fixed;
+      left: 200px;
+    }
+  </style>
+</head>
+<body>
+  <img src="images/font_h.png" class="fixed-img">
+  <p><img src="images/font_h.png"></p>
+  <p><img src="images/font_t.png"></p>
+  <p><img src="images/font_m.png"></p>
+  <p><img src="images/font_l.png"></p>
+</body>
+</html>
