@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>클래스 선택자 사용하기</title>
+    <style>
+      .blue {color: red;}
+      .large {color: blue;}
+      h2.blue{background-color: brown;}
+    </style>
+</head>
+<body>
+  <h2 class ="blue">바나나</h2>
+    <p><img src="images/banana.png" width="50"/></p>
+    <p class="large">노란색의 아열대 과일</p>
+    <p><span>노란색</span>의 아열대 과일</p>
+    <p class="blue">지방이 없어 체중 조절에 좋음</p>
+    <p>식이섬유가 풍부해 주식 대용으로 적당</p>
+</body>
+</html>
