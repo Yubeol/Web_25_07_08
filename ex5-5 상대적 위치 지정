@@ -16,13 +16,18 @@
       top: 50px;
       left: 30px;
     }
+    .static-img{
+      position: absolute;
+      top: 50px;
+      left: 30px;
+    }
   </style>
 </head>
 <body>
   <div>
-    <img src="images/font_h.png">
+    <img src="images/font_h.png" class="static-img">
     <img src="images/font_t.png" class="relative-img">
-    <img src="images/font_m.png">
+    <img src="images/font_m.png" class="static-img">
     <img src="images/font_l.png" class="relative-img">
   </div>
 <h3>.relative-img: top 50px; left: 30px;</h3>
