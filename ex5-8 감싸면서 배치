@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>감싸면서 배치하기</title>
+  <style>
+    div{
+      display: inline-block;
+      width: 250px;
+      background: #ffe;
+      border: 1px solid #9cc;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div><img src="images/meerkat.jpg" height="80px" style="float: left">
+  <b>(float: left)</b>미어캣미어캣미어캣미어캣미어캣미어캣미어캣미어캣미어캣미어캣미어캣미어
+미어캣미어캣미어캣미어캣미어캣미어캣미어캣미어캣미어캣미어캣미어캣미어캣미어캣미어캣미어캣미어캣
+미어캣미어캣미어캣미어캣미어캣미어캣미어캣미어캣미어캣미어캣미어캣미어캣미어캣미어캣미어캣미어캣
+</div>
+<div><img src="images/fox.jpg" height="80px" style="float: right">
+<b>(float: right)</b>여우여우여우여우여우여우여우여우여우여우여우여우여우여우
+여우여우여우여우여우여우여우여우여우여우여우여우여우여우여우여우여우여우여우여우여우
+여우여우여우여우여우여우여우여우</div>
+</body>
+</html>
