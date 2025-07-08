@@ -21,7 +21,7 @@
   <ul>
     <li style="list-style-type: square">프랑스</li>
     <li style="list-style-type: circle">이탈리아</li>
-    <li style="list-style-type: inside">체코</li>
+    <li style="list-style-type: disc inside">체코</li>
   </ul><br>
   <ul class="list-bar">
     <li>프랑스</li>
