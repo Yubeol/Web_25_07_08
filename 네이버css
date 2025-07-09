@@ -28,6 +28,9 @@ a {
   font-size: 4rem;
   letter-spacing: -0.3rem;
 }
+.search-logo{
+  cursor: pointer;
+}
 
 /* 검색창 영역 */
 .search-bar {
@@ -76,18 +79,44 @@ a {
 .search {
   color: #00c73c;
 }
+.AX-function {
+  margin-top: 10px;
+}
+.AX-function > ul {
+  gap: 10px;
+  cursor: pointer;
+  flex: 1;
+  display: flex;
+}
+.AX-function > ul > img{
+  width: 35px;
+  border-radius: 50%;
+  /*border: 1px solid gainsboro;*/
+}
+
+.AX-function > ul >img:hover {
+  transition: box-shadow 0s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);;
+}
+
+.push-right{
+   margin-left: auto;
+}
 
 /* 메뉴 영역 */
 .menu-bar {
   margin-top: 20px;
-  margin: auto;
+  text-align: center;
 }
 
 .menu-box-1 > ul {
+  list-style: none;
+  padding: 0;
   display: flex;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
   /*border-top: 2px solid #000;*/
   /*border-bottom: 2px solid #000;*/
+  gap: 15px;
   background-color: #f9f9f9;
   justify-content: center;
 }
@@ -98,13 +127,14 @@ a {
 }
 
 .menu-box-1 > ul > li > a {
-  overflow: hidden;
+    font-weight: bold;
+    overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap;
-    display: block;
-    margin-top: 4px;
+    /*white-space: nowrap;*/
+    /*display: block;*/
+    /*margin-top: 4px;*/
     font-size: 0.8rem;
-    line-height: 20px;
+    /*line-height: 20px;*/
     text-align: center;
 
 }
@@ -118,7 +148,7 @@ a {
 }
 
 .menu-box-1 > ul > li:hover > a {
-  color: red;
+  /*color: red;*/
   text-decoration: underline;
 }
 /*서비스 영역*/
@@ -133,7 +163,17 @@ a {
   display: flex;
   justify-content: center;
   cursor: pointer;
-  gap: 20px;
+  gap: 10px;
+  padding: 10px;
+}
+.service-icon-1 > ul > img {
+  width: 40px;
+  border-radius: 30%;
+  border: 1px solid gainsboro;
+  transition: box-shadow 0.3s ease;
+}
+.service-icon-1 > ul > img:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .service-icon-1 > ul >img:nth-child(1),
 .service-icon-1 > ul >img:nth-child(2),
@@ -146,8 +186,9 @@ a {
 .service-icon-1 > ul >img:nth-child(9),
 .service-icon-1 > ul >img:nth-child(10),
 .service-icon-1 > ul >img:nth-child(11) {
-  width: 40px;
+
 }
+
 
 
 
