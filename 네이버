@@ -24,7 +24,106 @@ a {
 }
 
 .logo-bar > a {
-  font-weight: bold;
+  font-weight: bold;ㅁ<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>검색창 통합 페이지</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--<div class="con">-->
+<!--  &lt;!&ndash; 로고 영역 &ndash;&gt;-->
+<!--  <div class="logo-bar">-->
+<!--    <a href="#">Naver</a>-->
+<!--    <img src="images/naver.png" alt="네이버 로고" style="width: 20px; margin-left: 5px;">-->
+<!--  </div>-->
+
+  <!--바로가기,페이 영역-->
+  <div class="AX-function">
+    <ul>
+      <img src="images/Nadd.png" alt="바로가기">
+      <img src="images/Npay.png" alt="네이버페이">
+      <!--오른쪽 정렬-->
+      <img class="push-right" src="images/talk.png" alt="톡">
+      <img src="images/alam.png" alt="알람">
+      <img src="images/shhopB.png" alt="장바구니">
+    </ul>
+  </div>
+
+  <!-- 검색창 영역 -->
+  <div class="search-bar">
+    <div class="search-box">
+      <span class="search-logo">N</span>
+      <input type="text" class="search-input" placeholder="검색어를 입력하세요">
+      <span class="icon keyboard">⌨️</span>
+      <span class="icon dropdown">▼</span>
+      <span class="icon search">🔍</span>
+    </div>
+  </div>
+
+  <!-- 메뉴 영역 -->
+<div class="service-icon">
+  <nav class="service-icon-1">
+    <ul>
+      <img src="images/mail.png" alt="메일">
+      <img src="images/cafe.jpg" alt="카페">
+      <img src="images/blog.png" alt="블로그">
+      <img src="images/store.jpg" alt="스토어">
+      <img src="images/news.png" alt="뉴스">
+      <img src="images/grap.png" alt="증권">
+      <img src="images/house.png" alt="부동산">
+      <img src="images/map.png" alt="지도">
+      <img src="images/webtoon.png" alt="웹툰">
+      <img src="images/chzz.png" alt="치지직">
+      <img src="images/add.png" alt="더보기">
+    </ul>
+  </nav>
+
+  <div class="menu-bar">
+    <nav class="menu-box-1">
+      <ul>
+        <li><a href="#">메일</a></li>
+        <li><a href="#">카페</a></li>
+        <li><a href="#">블로그</a></li>
+        <li><a href="#">스토어</a></li>
+        <li><a href="#">뉴스</a></li>
+        <li><a href="#">증권</a></li>
+        <li><a href="#">부동산</a></li>
+        <li><a href="#">지도</a></li>
+        <li><a href="#">웹툰</a></li>
+        <li><a href="#">치지직</a></li>
+
+      </ul>
+    </nav>
+  </div>
+</div>
+<!--로그인창-->
+<div class="login">
+  <nav class="login-box">
+    <ul>
+      <li></li>
+    </ul>
+  </nav>
+</div>
+  <!-- 상단 이미지 영역 -->
+  <div class="top-image-bar">
+    <img src="images/care.jpg" alt="상단 이미지">
+  </div>
+
+  <!-- 하단 이미지 영역 -->
+  <div class="top-2-image-bar">
+    <img src="images/fashion.jpg" alt="이미지1">
+    <img src="images/fashion.jpg" alt="이미지2">
+    <img src="images/fashion.jpg" alt="이미지3">
+  </div>
+</div>
+
+</body>
+</html>
+
   font-size: 4rem;
   letter-spacing: -0.3rem;
 }
